@@ -1,0 +1,19 @@
+{
+  "name": "scrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yonatan",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index",
+    "dev": "tsc && nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.3"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4",
+    "typescript": "^5.1.6"
+  }
+}
